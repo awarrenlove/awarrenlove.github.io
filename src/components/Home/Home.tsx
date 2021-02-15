@@ -1,12 +1,14 @@
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Title from "../Title";
 
 const Home = () => (
   <div className="mx-auto text-center max-w-6xl">
-    <h1 className="text-2xl font-bold">Andrew Warren-Love</h1>
+    <Title>Andrew Warren-Love</Title>
     <p className="text-xl my-2">
       I am a software engineer with almost a decade of full-time experience
-      building full-stack solutions across multiple industries.
+      building full-stack solutions across multiple industries, from low level
+      robotic firmware to full-stack web application development.
     </p>
     <p className="text-xl">
       I now work with Quartzy, a lab management and purchasing platform for
