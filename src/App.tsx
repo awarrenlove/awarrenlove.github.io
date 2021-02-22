@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import Technologies from "./components/Technologies";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
             <Route path="/tech">
               <Technologies />
             </Route>
-            <Route path="/contact">Contact</Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
           </Switch>
         </div>
       </Router>

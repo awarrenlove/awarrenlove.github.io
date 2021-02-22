@@ -5,7 +5,7 @@ import Title from "../Title";
 const Home = () => (
   <div className="mx-auto text-center max-w-6xl">
     <Title>Andrew Warren-Love</Title>
-    <p className="text-xl my-2">
+    <p className="text-xl mb-2">
       I am a software engineer with almost a decade of full-time experience
       building full-stack solutions across multiple industries, from low level
       robotic firmware to full-stack web application development.
